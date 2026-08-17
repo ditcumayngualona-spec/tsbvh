@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TSBVH — The Strongest Battlegrounds VietHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="navbar-left">
+
+            <a href="#" class="logo">
+                <span>TSBVH</span>
+            </a>
+
+            <nav class="navigation">
+
+                <a href="#home" class="nav-item active">
+                    <span class="nav-icon">⌂</span>
+                    <span>Trang chủ</span>
+                </a>
+
+                <a href="#ranking" class="nav-item">
+                    <span class="nav-icon">♜</span>
+                    <span>Bảng xếp hạng</span>
+                </a>
+
+                <a href="#information" class="nav-item">
+                    <span class="nav-icon">ⓘ</span>
+                    <span>Thông tin</span>
+                </a>
+
+                <a href="#utilities" class="nav-item">
+                    <span class="nav-icon">▦</span>
+                    <span>Tiện ích</span>
+                    <span class="arrow">⌄</span>
+                </a>
+
+                <a href="#moderation" class="nav-item">
+                    <span class="nav-icon">◉</span>
+                    <span>Kiểm duyệt</span>
+                </a>
+
+                <a href="#discord" class="nav-item">
+                    <span class="nav-icon">◌</span>
+                    <span>Discord</span>
+                </a>
+
+            </nav>
+
+        </div>
+
+
+        <div class="navbar-right">
+
+            <button class="icon-button" id="themeButton">
+                ☾
+            </button>
+
+            <button class="icon-button" id="searchButton">
+                ⌕
+            </button>
+
+            <div class="search-box">
+
+                <span class="search-icon">
+                    ⌕
+                </span>
+
+                <input
+                    type="text"
+                    id="playerSearch"
+                    placeholder="Tìm kiếm player..."
+                >
+
+                <span class="shortcut">
+                    ⌘K
+                </span>
+
+            </div>
+
+            <button class="profile">
+
+                <span class="discord-small">
+                    ◉
+                </span>
+
+                <span>Dani :3</span>
+
+                <span class="profile-arrow">
+                    ⌄
+                </span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main id="home" class="main-container">
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero">
+
+            <div class="hero-background">
+
+                <div class="hero-decoration decoration-one"></div>
+                <div class="hero-decoration decoration-two"></div>
+
+                <div class="hero-text">
+
+                    <div class="hero-subtitle">
+                        The Strongest Battlegrounds · VietHub
+                    </div>
+
+                    <div class="hero-title">
+                        TSBVH
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= INTRO ================= -->
+
+        <section class="introduction" id="information">
+
+            <h1>
+                Cộng Đồng TSBVH Lớn Nhất Việt Nam
+            </h1>
+
+            <p>
+                Chào mừng bạn đến với
+                <strong>TSBVH</strong>
+                (The Strongest Battleground Việt Nam Hub).
+                Nơi quy tụ hàng nghìn võ sĩ tài năng, các thế lực clan
+                hùng mạnh và là sân chơi của những giải đấu kịch tính
+                hàng đầu. Chúng tôi xây dựng hệ thống xếp hạng minh bạch,
+                luật lệ công bằng nhằm đem lại trải nghiệm tốt nhất
+                cho mọi thành viên.
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= CARDS ================= -->
+
+        <section class="cards-section">
+
+            <!-- CARD 1 -->
+
+            <div class="information-card">
+
+                <div class="card-top">
+
+                    <div class="card-icon">
+                        ⓘ
+                    </div>
+
+                    <span class="card-tag">
+                        XEM CHI TIẾT
+                    </span>
+
+                </div>
+
+                <h2>
+                    Thông Tin & Luật Lệ
+                    <span>›</span>
+                </h2>
+
+                <p>
+                    Xem hệ thống sức mạnh, các quy định chung
+                    và luật thi đấu PVP của server.
+                </p>
+
+                <a href="#information" class="card-link">
+                    <span>Chuyển tới trang Thông Tin</span>
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+
+            <!-- CARD 2 -->
+
+            <div class="information-card">
+
+                <div class="card-top">
+
+                    <div class="card-icon">
+                        ↪
+                    </div>
+
+                    <span class="card-tag">
+                        ĐĂNG KÝ
+                    </span>
+
+                </div>
+
+                <h2>
+                    Đăng Ký Tài Khoản
+                    <span>›</span>
+                </h2>
+
+                <p>
+                    Xác thực và liên kết tài khoản Roblox của bạn
+                    để có thể tham gia vào hệ thống xếp hạng TSBVH.
+                </p>
+
+                <a href="#register" class="card-link">
+                    <span>Chuyển tới trang Đăng Ký</span>
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+
+            <!-- CARD 3 -->
+
+            <div class="information-card">
+
+                <div class="card-top">
+
+                    <div class="card-icon">
+                        ♟
+                    </div>
+
+                    <span class="card-tag">
+                        RẢM ĐỂ MỞ
+                    </span>
+
+                </div>
+
+                <h2>
+                    Đội Ngũ Phát Triển
+                    <span>›</span>
+                </h2>
+
+                <p>
+                    Gặp gỡ ban quản trị (Owners, Managers)
+                    và đội ngũ kỹ thuật (Developers) đứng sau
+                    sự phát triển hệ thống TSBVH.
+                </p>
+
+                <a href="#team" class="card-link">
+                    <span>Xem chi tiết</span>
+                    <span>⌄</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= STATISTICS ================= -->
+
+        <section class="statistics" id="ranking">
+
+            <div class="section-title">
+
+                <span>▥</span>
+
+                THỐNG KÊ CỘNG ĐỒNG TSBVH
+
+            </div>
+
+
+            <div class="statistics-grid">
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon purple">
+                        ♟
+                    </div>
+
+                    <strong>
+                        24K+
+                    </strong>
+
+                    <span>
+                        Thành viên
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon yellow">
+                        ⚑
+                    </div>
+
+                    <strong>
+                        1.2K+
+                    </strong>
+
+                    <span>
+                        Trận đấu
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon red">
+                        ϟ
+                    </div>
+
+                    <strong>
+                        500+
+                    </strong>
+
+                    <span>
+                        Player hoạt động
+                    </span>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon green">
+                        ▣
+                    </div>
+
+                    <strong>
+                        24/7
+                    </strong>
+
+                    <span>
+                        Community
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= UTILITIES ================= -->
+
+        <section class="utilities" id="utilities">
+
+            <div class="section-title">
+                ⊞ &nbsp; TIỆN ÍCH
+            </div>
+
+
+            <div class="utility-grid">
+
+                <div class="utility-card">
+
+                    <div class="utility-icon">
+                        ⌕
+                    </div>
+
+                    <h3>
+                        Tìm kiếm Player
+                    </h3>
+
+                    <p>
+                        Tìm kiếm thông tin người chơi
+                        nhanh chóng.
+                    </p>
+
+                </div>
+
+
+                <div class="utility-card">
+
+                    <div class="utility-icon">
+                        ♜
+                    </div>
+
+                    <h3>
+                        Bảng xếp hạng
+                    </h3>
+
+                    <p>
+                        Xem thứ hạng và thành tích
+                        của các player.
+                    </p>
+
+                </div>
+
+
+                <div class="utility-card">
+
+                    <div class="utility-icon">
+                        ◉
+                    </div>
+
+                    <h3>
+                        Discord Community
+                    </h3>
+
+                    <p>
+                        Kết nối với cộng đồng
+                        TSBVH Việt Nam.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= REGISTER ================= -->
+
+        <section class="content-panel" id="register">
+
+            <h2>
+                Đăng Ký Tài Khoản
+            </h2>
+
+            <p>
+                Xác thực và liên kết tài khoản Roblox
+                của bạn để tham gia hệ thống TSBVH.
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= TEAM ================= -->
+
+        <section class="content-panel" id="team">
+
+            <h2>
+                Đội Ngũ Phát Triển
+            </h2>
+
+            <p>
+                Owners, Managers và Developers đứng sau
+                hệ thống TSBVH.
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= MODERATION ================= -->
+
+        <section class="content-panel" id="moderation">
+
+            <h2>
+                Kiểm Duyệt
+            </h2>
+
+            <p>
+                Thông tin về đội ngũ quản trị và
+                quy định cộng đồng.
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= DISCORD ================= -->
+
+        <section class="discord-section" id="discord">
+
+            <h2>
+                Tham Gia Discord TSBVH
+            </h2>
+
+            <p>
+                Tham gia server Discord để trò chuyện
+                với cộng đồng và nhận thông báo mới nhất.
+            </p>
+
+            <a
+                href="https://discord.gg/"
+                target="_blank"
+                class="discord-button"
+            >
+                ◉ &nbsp; Discord ↗
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        TSBVH
+        <span>•</span>
+        The Strongest Battlegrounds VietHub
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
